@@ -1,0 +1,81 @@
+.shop_hero {
+    background-image: url("../images/Mask\ Group\ 5.png");
+    width: 1349px;
+    height: 600px;
+    margin-top: -100px;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+
+.shop_hero h1 {
+    color: var(--brand-white, #FFF);
+    font-family: Rubik;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 140px;
+    margin-bottom: 8px;
+}
+
+.shop_hero p {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    width: 519px;
+}
+.shop_title{
+    text-align: start;
+}
+.texts p{
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.texts h6{
+    color: #222;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    text-align: end;
+    font-weight: 300;
+    line-height: 160%; /* 25.6px */
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.opicaniy{
+    margin: o auto;
+    
+}
+.opicaniy p {
+    margin: 40px 0 16px;
+    color: var(--brand-dark-brown, #42210B);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 22.4px */
+}
+.opicaniy button{
+    color: var(--Primary-White, #FFF);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 27.2px */
+    text-transform: uppercase;
+    display: flex;
+    padding: 16px 46px 12px 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background: #7373D7;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 80px;
+}

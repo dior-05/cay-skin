@@ -1,0 +1,61 @@
+.customer_swiper {
+    background-color: #7373D7;
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer {
+    background-color: #7373D7;
+    height: 563px;
+
+}
+.customer_wrapper{
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+
+
+/* .customer .swiper2 {
+    width: 100%;
+    height: 503px;
+    color: #7373D7;
+} */
+
+.customer_wrapper .appSwiper2{
+    margin-right: -40px;
+}
+.customer .swiper-slide2 img {
+    display: block;
+    height: 403px;
+
+}
+
+
+.customer  .customer1 {
+    width: 304px;
+    height: 403px;
+}
+
+.customer_text h2 {
+    width: 302px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.customer_text h4 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-top: 100px;
+}

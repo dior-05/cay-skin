@@ -1,0 +1,240 @@
+.url {
+    width: 846px;
+    height: 132px;
+    border-bottom: 1px solid;
+    gap: 16px;
+
+}
+
+.url {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto 0;
+}
+
+.props {
+    margin: 150px auto 0;
+
+}
+
+.help {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.help h1 {
+    color: #222;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 56px */
+    text-transform: uppercase;
+}
+
+.first {
+    width: 846px;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto 0;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+    padding-right: 10px;
+}
+
+.gel {
+    width: 85px;
+    height: 113px;
+    flex-shrink: 0;
+    background: #7373D7;
+    padding-top: 10px;
+}
+
+.help input {
+    width: 409px;
+    height: 8px;
+    flex-shrink: 0;
+}
+
+.help p {
+    color: #7373D7;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.titless{
+    width: 310px;
+}
+
+.titless h4 {
+    color: #222;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 25.6px */
+}
+
+.titless h5 {
+    color: #222;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 8px 0;
+}
+
+.titless h6 {
+    color: #222;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+    margin: 8px 0;
+
+}
+
+.titless p {
+    color: #7373D7;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 22.4px */
+    text-decoration-line: underline;
+}
+
+.form {
+    width: 846px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box h6 {
+    color: #222;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+    margin-bottom: 10px;
+}
+
+.box input {
+    width: 411px;
+    height: 185px;
+    flex-shrink: 0;
+    border: 1px solid #222;
+    opacity: 0.3;
+    padding: 16px 0 140px 16px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one p{
+    color: #222;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+}
+.two h4{
+    color: #7373D7;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+}
+.three h3{
+    color: #222;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    text-transform: uppercase;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0 16px;
+}
+.many h5{
+    color: #222;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 22.4px */
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+.many button{
+    display: flex;
+    width: 302px;
+    padding: 16px 48px 10px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #7373D7;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 27.2px */
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}

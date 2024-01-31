@@ -1,0 +1,96 @@
+.anons_girl {
+    background-image: url("../images/Mask\ Group.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 628px;
+    height: 837px;
+}
+
+.anons_girl_one {
+    background-image: url("../images/Mask\ Group\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 628px;
+    height: 837px;
+}
+
+.anons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.anons_girl h1, .anons_girl_one h1{
+    color: var(--brand-white, #FFF);
+    font-family: Rubik;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 650px;
+    margin-bottom: 24px;
+}
+.anons_girl, .anons_girl_one{
+    padding: 40px;
+    
+}
+.res a{
+    border-bottom: 2px solid #7373D7;
+    padding-bottom: 4px;
+
+}
+@media(max-width:1378px){
+    .anons_girl {
+        width: 450px;
+        height: 800px;
+    }
+    .anons_girl_one {
+        width: 450px;
+        height: 816px;
+    }
+    .anons_girl h1{
+        font-size: 30px;
+        margin-bottom: -5px;
+    }
+    .anons_girl_one h1 {
+        font-size: 30px;
+        margin-bottom: -5px;
+    }
+}
+@media(max-width:1376px){
+    .anons_girl {
+        width: 376px;
+        height: 800px;
+    }
+    .anons_girl_one {
+        width: 376px;
+        height: 816px;
+    }
+    .anons_girl_one h1 {
+        font-size: 25px;
+        margin-bottom: -5px;
+    }
+    .anons_girl h1{
+        font-size: 25px;
+        margin-bottom: -5px;
+    }
+}
+@media(max-width:775px){
+    .anons {
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+    .anons_girl {
+        width: 366px;
+        height: 800px;
+       
+    }
+   
+   
+}

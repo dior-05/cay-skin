@@ -1,0 +1,241 @@
+.brend_title h2 {
+    border-bottom: 2px dashed #7373D7;
+    width: 553px;
+    color: #7373D7;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.brend_title p {
+    color: #222;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 25.2px */
+    text-transform: uppercase;
+}
+
+.brend_title h3 {
+    color: #222;
+    font-family: Rubik;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.prop h3 {
+    color: #222;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.prop p {
+    color: #222;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 254px;
+}
+
+.prop img {
+    display: flex;
+    margin: 37px auto 22px;
+}
+
+.prop {
+    height: 315px;
+    width: 302px;
+}
+
+.br {
+    margin: 20px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+@media(max-width: 1360px) {
+    .br {
+        gap: 10px;
+    }
+
+    .brend_wrapper .prop {
+        height: 295px;
+        width: 282px;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+}
+
+@media(max-width: 1270px) {
+    .br {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .brend_wrapper .brend_title h2 {
+        width: 503px;
+        font-size: 30px;
+        margin: 0 auto;
+
+    }
+    .brend_wrapper .brend_title h3 {
+        width: 503px;
+        font-size: 30px;
+        margin: 0 auto;
+
+    }
+
+    .container {
+        width: 1100px;
+    }
+}
+@media(max-width: 1160px) {
+    .br {
+        gap: 10px;
+    }
+
+    .brend_wrapper .prop {
+        height: 295px;
+        width: 282px;
+    }
+
+    .container {
+        width: 1000px;
+    }
+
+}
+
+@media(max-width: 1070px) {
+    .br {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .brend_wrapper .brend_title h2 {
+        width: 403px;
+        font-size: 24px;
+
+    }
+    .brend_wrapper .brend_title h3 {
+        width: 403px;
+        font-size: 27px;
+        margin: 0 auto;
+
+    }
+
+    .container {
+        width: 860px;
+    }
+}
+@media(max-width: 880px) {
+    .brend_wrapper .brend_title h2 {
+        width: 403px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .brend_wrapper .brend_title h3 {
+        margin: 0 auto;
+        width: 403px;
+        font-size: 22px;
+    }
+    .br {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px auto 30px;
+    }
+    .container {
+        width: 760px;
+    }
+    
+}
+@media(max-width: 760px){
+    .container{
+        width: 660px;
+    }
+}
+@media(max-width: 680px){
+    .container{
+        width: 560px;
+    }
+    .brend_wrapper .brend_title h2 {
+        width: 403px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .brend_wrapper .brend_title h3 {
+        margin: 0 auto;
+        width: 483px;
+        font-size: 20px;
+    }
+    .br {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px auto 30px;
+        gap: 10px;
+    }
+}
+@media(max-width: 580px){
+    .br{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px auto 30px;
+    }
+    .prop{
+        margin: 0 auto;
+    }
+    .brend_wrapper .brend_title h2 {
+        width: 350px;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    .brend_wrapper .brend_title h3 {
+        margin: 0 auto;
+        width: 403px;
+        font-size: 17px;
+    }
+    .container{
+        width: 460px;
+    }
+}
+@media(max-width: 460px){
+    .container{
+        width: 350px;
+    }
+    .brend_wrapper .brend_title h2 {
+        width: 250px;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .brend_wrapper .brend_title h3 {
+        margin: 0 auto;
+        width: 303px;
+        font-size: 12px;
+    }
+}
