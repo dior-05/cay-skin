@@ -19,8 +19,8 @@ function Swipers() {
                     <Swiper
                         spaceBetween={50}
                         slidesPerView={3}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
+                        onSlideChange={() => 'slide change'}
+                        onSwiper={(swiper) => swiper}
                         breakpoints={{
                             350: {
                                 slidesPerView: 1.2,

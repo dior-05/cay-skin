@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "../styles/shopHero.css"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

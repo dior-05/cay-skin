@@ -22,8 +22,8 @@ function Collection() {
                     <Swiper
                         spaceBetween={50}
                         slidesPerView={2.1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
+                        onSlideChange={() => 'slide change'}
+                        onSwiper={(swiper) => swiper}
                         className='qwwe'
                         breakpoints={{
                             350: {
